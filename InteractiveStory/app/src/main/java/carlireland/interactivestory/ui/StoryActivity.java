@@ -1,14 +1,16 @@
-package carlireland.interactivestory;
+package carlireland.interactivestory.ui;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import carlireland.interactivestory.R;
+import carlireland.interactivestory.model.Page;
 
 
 public class StoryActivity extends Activity {
+
 
     public static final String TAG = StoryActivity.class.getSimpleName();
 
@@ -25,6 +27,8 @@ public class StoryActivity extends Activity {
         }
 
         Log.d(TAG, name);
+
+
 
 
     }
